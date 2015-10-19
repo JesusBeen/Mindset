@@ -22,7 +22,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
             android:textSize="30dp"
-            android:textColor="#000100" />
+            android:textColor="#000100"
+            android:visibility="invisible" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +34,8 @@
             android:textSize="27dp"
             android:textColor="#000100"
             android:layout_below="@+id/textView"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,7 +46,8 @@
             android:textSize="27dp"
             android:textColor="#000100"
             android:layout_below="@+id/textView2"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
 
         <Chronometer
             android:layout_width="wrap_content"
@@ -52,8 +55,10 @@
             android:id="@+id/chronometer"
             android:textSize="60dp"
             android:textColor="#ff0400"
+            android:visibility="invisible"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -73,7 +78,8 @@
             android:id="@+id/button13"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:textColor="#f81515ff" />
+            android:textColor="#f81515ff"
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="fill_parent"
@@ -86,7 +92,8 @@
             android:id="@+id/button14"
             android:layout_below="@+id/button13"
             android:layout_centerHorizontal="true"
-            android:textColor="#f81515ff" />
+            android:textColor="#f81515ff"
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="fill_parent"
@@ -99,7 +106,8 @@
             android:id="@+id/button15"
             android:layout_below="@+id/button14"
             android:layout_centerHorizontal="true"
-            android:textColor="#f81515ff" />
+            android:textColor="#f81515ff"
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="fill_parent"
@@ -112,7 +120,8 @@
             android:id="@+id/button16"
             android:layout_below="@+id/button15"
             android:layout_centerHorizontal="true"
-            android:textColor="#f81515ff" />
+            android:textColor="#f81515ff"
+            android:visibility="invisible" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -128,13 +137,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PUNTOS: "
+            android:text="PUNTOS: 0"
             android:id="@+id/textView5"
             android:textColor="#0800f7"
             android:textSize="20dp"
             android:textIsSelectable="false"
-            android:layout_marginEnd="32dp"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_toEndOf="@+id/button23" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion_error"
+            android:text="INICIAR"
+            android:id="@+id/button23"
+            android:textColor="#f8ff1400"
+            android:layout_below="@+id/button16"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>

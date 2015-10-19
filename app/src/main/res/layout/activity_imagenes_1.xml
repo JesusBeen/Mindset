@@ -99,5 +99,18 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="26dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion_error"
+            android:text="INICIAR"
+            android:id="@+id/button24"
+            android:textColor="#f8ff1400"
+            android:layout_below="@+id/button19"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>

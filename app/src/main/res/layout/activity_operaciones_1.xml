@@ -99,5 +99,18 @@
             android:textColor="#f81515ff"
             android:layout_below="@+id/button21"
             android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion_error"
+            android:text="INICIAR"
+            android:id="@+id/button25"
+            android:textColor="#f8ff1400"
+            android:layout_below="@+id/button22"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>
