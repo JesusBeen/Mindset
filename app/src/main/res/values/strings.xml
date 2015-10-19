@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mindset</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_instruccion1">Instruccion1</string>
+    <string name="title_activity_instruccion2">Instruccion2</string>
+    <string name="title_activity_instruccion3">Instruccion3</string>
+    <string name="title_activity_instruccion4">Instruccion4</string>
+    <string name="title_activity_palabras_1">Palabras_1</string>
+    <string name="title_activity_imagenes_1">Imagenes_1</string>
+    <string name="title_activity_operaciones_1">operaciones_1</string>
+</resources>

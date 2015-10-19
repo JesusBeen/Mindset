@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion3"/>
+      <point      
+        x = "3340"      
+        y = "-4"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Palabras_1"/>
+      <point      
+        x = "1636"      
+        y = "1448"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion4"/>
+      <point      
+        x = "800"      
+        y = "1440"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion1"/>
+      <point      
+        x = "1680"      
+        y = "-8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion2"/>
+      <point      
+        x = "2508"      
+        y = "-12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.MainActivity"/>
+      <point      
+        x = "820"      
+        y = "8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Splash"/>
+      <point      
+        x = "8"      
+        y = "16"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Imagenes_1"/>
+      <point      
+        x = "2508"      
+        y = "1428"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

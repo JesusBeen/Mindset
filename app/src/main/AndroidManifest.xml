@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jbjq.benjamin.mindset" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Instruccion1"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_instruccion1" >
+        </activity>
+        <activity
+            android:name=".Instruccion2"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_instruccion2" >
+        </activity>
+        <activity
+            android:name=".Instruccion3"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_instruccion3" >
+        </activity>
+        <activity
+            android:name=".Instruccion4"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_instruccion4" >
+        </activity>
+        <activity
+            android:name=".Palabras_1"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_palabras_1" >
+        </activity>
+        <activity
+            android:name=".Imagenes_1"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_imagenes_1" >
+        </activity>
+        <activity
+            android:name=".operaciones_1"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_operaciones_1" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jbjq.benjamin.mindset.operaciones_1"
+    android:background="@drawable/universal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer3"
+            android:textSize="50dp"
+            android:textColor="#ff0000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="   8  +  __  = 12"
+            android:id="@+id/textView10"
+            android:textSize="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIVEL 1"
+            android:id="@+id/textView8"
+            android:textColor="#0800f7"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUNTOS: "
+            android:id="@+id/textView9"
+            android:textColor="#0800f7"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="33dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion"
+            android:text="4"
+            android:id="@+id/button20"
+            android:textColor="#f81515ff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion_error"
+            android:text="7"
+            android:id="@+id/button21"
+            android:textColor="#f81515ff"
+            android:layout_below="@+id/button20"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="30dp"
+            android:background="@drawable/seleccion_error"
+            android:text="3"
+            android:id="@+id/button22"
+            android:textColor="#f81515ff"
+            android:layout_below="@+id/button21"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
