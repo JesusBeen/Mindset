@@ -2,8 +2,12 @@ package com.jbjq.benjamin.mindset;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Chronometer;
 
 public class Palabras_1 extends Activity {
 
@@ -11,6 +15,7 @@ public class Palabras_1 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palabras_1);
+
     }
 
     @Override
