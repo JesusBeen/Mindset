@@ -41,6 +41,7 @@
         <activity
             android:name=".Instruccion3"
             android:screenOrientation="portrait"
+
             android:label="@string/title_activity_instruccion3" >
         </activity>
         <activity
