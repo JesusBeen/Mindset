@@ -25,7 +25,7 @@ public class Palabras_1 extends Activity {
     TextView texto1,texto2,texto3;
     Chronometer crono;
     long Time = 0;
-    //Hoy corren a Cochy
+    //Hoy corren a Cochy.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
