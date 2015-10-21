@@ -16,16 +16,56 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.jbjq.benjamin.mindset.Palabras_1"/>
       <point      
-        x = "1636"      
-        y = "1448"/>
+        x = "1672"      
+        y = "1428"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion3"/>
+      <point      
+        x = "-84"      
+        y = "1440"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Palabras_1"/>
+      <point      
+        x = "1652"      
+        y = "2884"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.jbjq.benjamin.mindset.Instruccion4"/>
       <point      
-        x = "800"      
-        y = "1440"/>
+        x = "784"      
+        y = "1436"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion4"/>
+      <point      
+        x = "4288"      
+        y = "8376"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.Palabras_2"/>
+      <point      
+        x = "136"      
+        y = "2964"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Palabras_2"/>
+      <point      
+        x = "948"      
+        y = "2972"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -37,6 +77,14 @@
     </statePointEntry>
     <statePointEntry>
       <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion1"/>
+      <point      
+        x = "4304"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.jbjq.benjamin.mindset.Instruccion2"/>
       <point      
@@ -45,11 +93,27 @@
     </statePointEntry>
     <statePointEntry>
       <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Instruccion2"/>
+      <point      
+        x = "4444"      
+        y = "4500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.jbjq.benjamin.mindset.MainActivity"/>
       <point      
         x = "820"      
         y = "8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.MainActivity"/>
+      <point      
+        x = "3036"      
+        y = "1480"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -66,6 +130,30 @@
       <point      
         x = "2508"      
         y = "1428"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.Imagenes_1"/>
+      <point      
+        x = "5572"      
+        y = "7000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.jbjq.benjamin.mindset.operaciones_1"/>
+      <point      
+        x = "712"      
+        y = "9844"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.jbjq.benjamin.mindset.operaciones_1"/>
+      <point      
+        x = "1980"      
+        y = "9844"/>
     </statePointEntry>
   </locations>
 </navigationModel>
